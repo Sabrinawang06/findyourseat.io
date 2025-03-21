@@ -41,10 +41,17 @@
       text-align: center;
       border: none;
     }
+    /* Responsive header image */
+    .header-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
-  <img src="leaf-header.jpg" alt="Leaf Header" style="width: 100%; display: block; margin-bottom: 20px;">
+  <img src="leaf-header.jpg" alt="Leaf Header" class="header-image">
   <h1>Look Up Your Table</h1>
   <input type="text" id="search" placeholder="Search your name..." onkeyup="filterGuests()">
   <table>
