@@ -13,14 +13,24 @@
       font-family: 'Exmouth Regular';
       src: url('exmouth_.ttf') format('truetype');
     }
+    /* Remove default margin to allow header image to touch the viewport edges */
     body {
+      margin: 0;
       font-family: 'Didot', Arial, sans-serif;
-      text-align: center;
+    }
+    /* Container for all non-header content */
+    .container {
       margin: 50px;
+      text-align: center;
+    }
+    .header-image {
+      width: 100%;
+      height: auto;
+      display: block;
     }
     h1 {
       font-family: 'Exmouth Regular', 'Didot', Arial, sans-serif;
-      font-size: 52px; /* Increase as needed for a larger title */
+      font-size: 52px;
       margin-bottom: 20px;
     }
     #search {
@@ -41,22 +51,20 @@
       text-align: center;
       border: none;
     }
-    /* Responsive header image */
-    .header-image {
-      width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 20px;
-    }
   </style>
 </head>
 <body>
+  <!-- Header image without any margin -->
   <img src="leaf-header.jpg" alt="Leaf Header" class="header-image">
-  <h1>Look Up Your Table</h1>
-  <input type="text" id="search" placeholder="Search your name..." onkeyup="filterGuests()">
-  <table>
-    <tbody id="guest-list"></tbody>
-  </table>
+  
+  <!-- Container holds the rest of the content with a margin -->
+  <div class="container">
+    <h1>Look Up Your Table</h1>
+    <input type="text" id="search" placeholder="Search your name..." onkeyup="filterGuests()">
+    <table>
+      <tbody id="guest-list"></tbody>
+    </table>
+  </div>
 
   <script>
     let guests = [];
