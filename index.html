@@ -20,8 +20,22 @@
     }
     h1 {
       font-family: 'Exmouth Regular', 'Didot', Arial, sans-serif;
-      font-size: 52px; /* Increase as needed for a larger title */
-      margin-bottom: 20px;
+      font-size: 52px; /* Larger title */
+      margin-bottom: 60px; /* Extra space to accommodate the decorative image */
+      position: relative;
+      display: inline-block; /* Allows positioning of the pseudo-element */
+    }
+    /* Pseudo-element to add the background image below the title */
+    h1::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -20px; /* Adjust the gap between title and image as needed */
+      transform: translateX(-50%);
+      width: 100%; /* Adjust if necessary */
+      height: 30px; /* Set the height to match your image design */
+      background: url('leaf-border-design.png') no-repeat center center;
+      background-size: contain;
     }
     #search {
       width: 300px;
