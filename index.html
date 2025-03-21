@@ -67,7 +67,7 @@
       tbody.innerHTML = '';
       list.forEach(guest => {
         // Concatenates guest name and table number with a vertical bar in between
-        let row = <tr><td>${guest["GuestName"].trim()} | ${guest["TableNumber"].trim()}</td></tr>;
+        let row = `<tr><td>${guest["GuestName"].trim()} | ${guest["TableNumber"].trim()}</td></tr>`;
         tbody.innerHTML += row;
       });
     }
