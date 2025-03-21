@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Guest Lookup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #search {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wedding Guest Lookup</h1>
+    <input type="text" id="search" placeholder="Search guest name..." onkeyup="filterGuests()">
+    <table>
+        <thead>
+            <tr>
+                <th>Guest Name</th>
+                <th>Table Number</th>
+            </tr>
+        </thead>
+        <tbody id="guest-list"></tbody>
+    </table>
+
+    <script>
+        let guests = [];
+
+        fetch('guest_list.json')
+            .then(response => response.json())
+            .then(data => {
+                guests = data;
+                console.log("Loaded guest list:", guests); // Debugging log
+                displayGuests(guests);
+            })
+            .catch(error => console.error("Error loading guest list:", error));
+
+        function displayGuests(list) {
+            const tbody = document.getElementById('guest-list');
+            tbody.innerHTML = '';
+            list.forEach(guest => {
+                let row = `<tr><td>${guest["GuestName"].trim()}</td><td>${guest["TableNumber"].trim()}</td></tr>`;
+                tbody.innerHTML += row;
+            });
+        }
+
+        function filterGuests() {
+            let query = document.getElementById('search').value.toLowerCase().trim();
+            console.log("Search query:", query); // Debugging log
+            let filtered = guests.filter(guest => guest["GuestName"].toLowerCase().includes(query));
+            console.log("Filtered guests:", filtered); // Debugging log
+            displayGuests(filtered);
+        }
+    </script>
+</body>
+</html>
