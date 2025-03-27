@@ -1,17 +1,5 @@
 [
   {
-    "GuestName": "Jian Zhang",
-    "TableNumber": "Table 1"
-  },
-  {
-    "GuestName": "Qing Fu",
-    "TableNumber": "Table 1"
-  },
-  {
-    "GuestName": "Peng Wang",
-    "TableNumber": "Table 1"
-  },
-  {
     "GuestName": "Bing Fu",
     "TableNumber": "Table 1"
   },
@@ -20,15 +8,7 @@
     "TableNumber": "Table 1"
   },
   {
-    "GuestName": "Shunjun Song",
-    "TableNumber": "Table 1"
-  },
-  {
     "GuestName": "Cuiying Yang",
-    "TableNumber": "Table 1"
-  },
-  {
-    "GuestName": "Peiming Yang",
     "TableNumber": "Table 1"
   },
   {
@@ -36,12 +16,24 @@
     "TableNumber": "Table 1"
   },
   {
-    "GuestName": "Su Yan",
-    "TableNumber": "Table 2"
+    "GuestName": "Jian Zhang",
+    "TableNumber": "Table 1"
   },
   {
-    "GuestName": "Zhen Lei",
-    "TableNumber": "Table 2"
+    "GuestName": "Peiming Yang",
+    "TableNumber": "Table 1"
+  },
+  {
+    "GuestName": "Peng Wang",
+    "TableNumber": "Table 1"
+  },
+  {
+    "GuestName": "Qing Fu",
+    "TableNumber": "Table 1"
+  },
+  {
+    "GuestName": "Shunjun Song",
+    "TableNumber": "Table 1"
   },
   {
     "GuestName": "Danny Geng",
@@ -52,12 +44,36 @@
     "TableNumber": "Table 2"
   },
   {
+    "GuestName": "Mickey Chou",
+    "TableNumber": "Table 2"
+  },
+  {
+    "GuestName": "Su Yan",
+    "TableNumber": "Table 2"
+  },
+  {
     "GuestName": "Terence Liu",
     "TableNumber": "Table 2"
   },
   {
-    "GuestName": "Mickey Chou",
+    "GuestName": "Zhen Lei",
     "TableNumber": "Table 2"
+  },
+  {
+    "GuestName": "Daniel Li",
+    "TableNumber": "Table 3"
+  },
+  {
+    "GuestName": "Jinwen Chen",
+    "TableNumber": "Table 3"
+  },
+  {
+    "GuestName": "Joanna Shih",
+    "TableNumber": "Table 3"
+  },
+  {
+    "GuestName": "Nathan Li",
+    "TableNumber": "Table 3"
   },
   {
     "GuestName": "Pei-Shu Ho",
@@ -68,31 +84,11 @@
     "TableNumber": "Table 3"
   },
   {
-    "GuestName": "Jinwen Chen",
-    "TableNumber": "Table 3"
-  },
-  {
-    "GuestName": "Nathan Li",
-    "TableNumber": "Table 3"
-  },
-  {
-    "GuestName": "Daniel Li",
-    "TableNumber": "Table 3"
-  },
-  {
     "GuestName": "Richard Shih",
     "TableNumber": "Table 3"
   },
   {
-    "GuestName": "Joanna Shih",
-    "TableNumber": "Table 3"
-  },
-  {
-    "GuestName": "Jun Li",
-    "TableNumber": "Table 4"
-  },
-  {
-    "GuestName": "Yao Chen",
+    "GuestName": "Angela Celi",
     "TableNumber": "Table 4"
   },
   {
@@ -100,31 +96,23 @@
     "TableNumber": "Table 4"
   },
   {
+    "GuestName": "Jun Li",
+    "TableNumber": "Table 4"
+  },
+  {
     "GuestName": "Susan Song",
     "TableNumber": "Table 4"
   },
   {
-    "GuestName": "Angela Celi",
+    "GuestName": "Yao Chen",
     "TableNumber": "Table 4"
   },
   {
-    "GuestName": "Tiankai Xie",
+    "GuestName": "Addison Lin",
     "TableNumber": "Table 5"
   },
   {
     "GuestName": "Chien-Yu Lin",
-    "TableNumber": "Table 5"
-  },
-  {
-    "GuestName": "Letian Shi",
-    "TableNumber": "Table 5"
-  },
-  {
-    "GuestName": "Tony Li",
-    "TableNumber": "Table 5"
-  },
-  {
-    "GuestName": "Addison Lin",
     "TableNumber": "Table 5"
   },
   {
@@ -136,15 +124,23 @@
     "TableNumber": "Table 5"
   },
   {
-    "GuestName": "Jason Xian",
-    "TableNumber": "Table 6"
+    "GuestName": "Letian Shi",
+    "TableNumber": "Table 5"
+  },
+  {
+    "GuestName": "Tiankai Xie",
+    "TableNumber": "Table 5"
+  },
+  {
+    "GuestName": "Tony Li",
+    "TableNumber": "Table 5"
   },
   {
     "GuestName": "Carl Jin",
     "TableNumber": "Table 6"
   },
   {
-    "GuestName": "Jie Qiu",
+    "GuestName": "Hongyi Mu",
     "TableNumber": "Table 6"
   },
   {
@@ -156,7 +152,7 @@
     "TableNumber": "Table 6"
   },
   {
-    "GuestName": "Zhizhen Wang",
+    "GuestName": "Jason Xian",
     "TableNumber": "Table 6"
   },
   {
@@ -164,27 +160,15 @@
     "TableNumber": "Table 6"
   },
   {
-    "GuestName": "Hongyi Mu",
+    "GuestName": "Jie Qiu",
     "TableNumber": "Table 6"
   },
   {
-    "GuestName": "Kenneth Tzan",
-    "TableNumber": "Table 7"
-  },
-  {
-    "GuestName": "Mary Zhang",
-    "TableNumber": "Table 7"
-  },
-  {
-    "GuestName": "Kebo Zhang",
-    "TableNumber": "Table 7"
+    "GuestName": "Zhizhen Wang",
+    "TableNumber": "Table 6"
   },
   {
     "GuestName": "Calvin Jou",
-    "TableNumber": "Table 7"
-  },
-  {
-    "GuestName": "Jereme Chien",
     "TableNumber": "Table 7"
   },
   {
@@ -192,7 +176,23 @@
     "TableNumber": "Table 7"
   },
   {
-    "GuestName": "Rebecca Park",
+    "GuestName": "Jereme Chien",
+    "TableNumber": "Table 7"
+  },
+  {
+    "GuestName": "Kebo Zhang",
+    "TableNumber": "Table 7"
+  },
+  {
+    "GuestName": "Kenneth Tzan",
+    "TableNumber": "Table 7"
+  },
+  {
+    "GuestName": "Lylian Wang",
+    "TableNumber": "Table 7"
+  },
+  {
+    "GuestName": "Mary Zhang",
     "TableNumber": "Table 7"
   },
   {
@@ -200,7 +200,7 @@
     "TableNumber": "Table 7"
   },
   {
-    "GuestName": "Lylian Wang",
+    "GuestName": "Rebecca Park",
     "TableNumber": "Table 7"
   },
   {
@@ -212,11 +212,11 @@
     "TableNumber": "Table 8"
   },
   {
-    "GuestName": "Jingyao Shan",
+    "GuestName": "Diana Guo",
     "TableNumber": "Table 8"
   },
   {
-    "GuestName": "Quan Chen",
+    "GuestName": "Jingyao Shan",
     "TableNumber": "Table 8"
   },
   {
@@ -224,7 +224,7 @@
     "TableNumber": "Table 8"
   },
   {
-    "GuestName": "Diana Guo",
+    "GuestName": "Quan Chen",
     "TableNumber": "Table 8"
   },
   {
@@ -236,12 +236,20 @@
     "TableNumber": "Table 9"
   },
   {
+    "GuestName": "Junqing Situ",
+    "TableNumber": "Table 9"
+  },
+  {
     "GuestName": "Shengjun Yin",
     "TableNumber": "Table 9"
   },
   {
-    "GuestName": "Junqing Situ",
-    "TableNumber": "Table 9"
+    "GuestName": "Esther Ou",
+    "TableNumber": "Table 10"
+  },
+  {
+    "GuestName": "Jianzhi Liu",
+    "TableNumber": "Table 10"
   },
   {
     "GuestName": "Jonathan Zhang",
@@ -252,15 +260,7 @@
     "TableNumber": "Table 10"
   },
   {
-    "GuestName": "Esther Ou",
-    "TableNumber": "Table 10"
-  },
-  {
     "GuestName": "Shichen Zhang",
-    "TableNumber": "Table 10"
-  },
-  {
-    "GuestName": "Jianzhi Liu",
     "TableNumber": "Table 10"
   },
   {
